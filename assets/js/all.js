@@ -11,4 +11,15 @@ var courseSwiper = new Swiper(".course-swiper ", {
     clickable: true
   }
 });
+var customerSwiper = new Swiper(".customer-swiper", {
+  slidesPerView: 2,
+  grid: {
+    rows: 2
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  }
+});
 //# sourceMappingURL=all.js.map
