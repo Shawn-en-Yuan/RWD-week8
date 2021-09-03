@@ -1,0 +1,39 @@
+---
+title: doyoga-contact
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="container py-8">
+    <h2 class="h3 text-primary text-center pt-2 pt-md-5 mb-6">聯絡我們</h2>
+    <div class="row">
+        <div class="col-lg-7 text-primary">
+            <iframe class="rounded-3 mb-5" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3614.826796742113!2d121.51014561423862!3d25.039951344208436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z57i957Wx5bqc!5e0!3m2!1szh-TW!2stw!4v1630548904186!5m2!1szh-TW!2stw" width="100%" height="323" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h3 class="mb-2">DOYOGA 教室位置</h3>
+            <p class="mb-2">高雄市苓雅區北信街 23 號 2 樓</p>
+            <h4>如何前往：</h4>
+            <ol class="">
+                <li class="mb-5">搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+                <li class="mb-5">搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+                <li>開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+            </ol>
+
+        </div>
+        <div class="col-lg-5">
+            <form class="text-primary bg-success rounded-3 p-6 " action="">
+                <h4 class="h5 fw-normal mb-3 mb-md-5">意見回饋&問題詢問</h4>
+                <label for="nameInput1" class="form-label mb-2">姓名</label>
+                <input type="text" class="form-control mb-3" id="nameInput1" placeholder="請輸入您的姓名">
+                <label for="emailInput1" class="form-label mb-2">電子信箱</label>
+                <input type="email" class="form-control mb-3" id="emailInput1" placeholder="email@example.com">
+                <label for="phoneInput1" class="form-label mb-2">手機號碼</label>
+                <input type="text" class="form-control mb-3" id="phoneInput1" placeholder="0912-345-678">
+                <label for="Textarea1" class="form-label mb-2">意見回饋</label>
+                <textarea class="form-control mb-3" id="Textarea1" rows="6"></textarea>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-secondary text-white" type="submit">送出</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
